@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+     height: 64px;
+    justify-content: start;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #2196F3;
+}
+ul {
+    display: flex;
+    align-items:center;
+}
+ul li {
+    height: 64px;
+    align-items: center;
+    display: flex;
+    padding: 23px;
+}
+ul li a{
+    color:white;
+}
+ul li:hover{
+    opacity: .7;
+    transform: scale(1.01);
+}
+.active {
+background-color:#1E88E5;
+}
